@@ -164,7 +164,7 @@ with st.expander("See Detailed Prescriptive Methods", expanded=True):
     atv_text = f":green[+${atv_delta:.2f}]" if promo_active else "$0.00"
     
     st.write(f"""
-    1.  **Inventory Strategy:** Direct 45% of total procurement budget toward **Sandwich** and **Smoothie** ingredients. These represent your "Cash Cows."
+    1.  **Inventory Strategy:** Direct 45% of total procurement budget toward **Sandwich** and **Smoothie** ingredients. These represent the "Business Drivers".
     2.  **Experimental Strategy (A/B Test):** 
         *   {'**ACTIVE:**' if promo_active else '**INACTIVE:**'} Implementation of the **Morning Booster** bundling.
         *   Target: Conversion of 'Coffee-only' customers to 'Bundle' customers. 
